@@ -1,0 +1,579 @@
+             StudentsGrade InstructorsGrade Difference
+nbr.val            2567.00          2567.00    2567.00
+nbr.null              0.00             0.00     331.00
+nbr.na                0.00             0.00       0.00
+min                  33.00            18.00     -80.00
+max                 100.00           100.00      60.00
+range                67.00            82.00     140.00
+sum              209026.00        197489.00  -11537.00
+median               82.00            80.00      -2.00
+mean                 81.43            76.93      -4.49
+SE.mean               0.29             0.37       0.34
+CI.mean.0.95          0.57             0.72       0.66
+var                 216.80           350.41     293.56
+std.dev              14.72            18.72      17.13
+coef.var              0.18             0.24      -3.81
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 10, df = 3000, p-value <0.0000000000000002
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 3.9 Inf
+sample estimates:
+mean of the differences 
+                    4.5 
+
+[1] "Test for Under Estimate"
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 10, df = 3000, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+ -Inf  5.1
+sample estimates:
+mean of the differences 
+                    4.5 
+
+
+Call:
+lm(formula = Difference ~ InstructorsGrade)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-40.80  -9.57  -1.69   7.16  50.43 
+
+Coefficients:
+                 Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)      -51.3878     1.0675   -48.1 <0.0000000000000002 ***
+InstructorsGrade   0.6095     0.0135    45.2 <0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 13 on 2565 degrees of freedom
+Multiple R-squared:  0.443,	Adjusted R-squared:  0.443 
+F-statistic: 2.04e+03 on 1 and 2565 DF,  p-value: <0.0000000000000002
+
+[1] "filter the Grade A data"
+[1] "Descriptive Statistics"
+             StudentsGrade InstructorsGrade Difference
+nbr.val             849.00          849.000     849.00
+nbr.null              0.00            0.000     225.00
+nbr.na                0.00            0.000       0.00
+min                  40.00           90.000     -10.00
+max                 100.00          100.000      60.00
+range                60.00           10.000      70.00
+sum               76285.00        81421.500    5136.50
+median               93.00           96.000       2.00
+mean                 89.85           95.903       6.05
+SE.mean               0.39            0.134       0.38
+CI.mean.0.95          0.77            0.263       0.75
+var                 131.04           15.218     122.96
+std.dev              11.45            3.901      11.09
+coef.var              0.13            0.041       1.83
+[1] "Hypothesis Testing"
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = -20, df = 800, p-value = 1
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -6.7  Inf
+sample estimates:
+mean of the differences 
+                   -6.1 
+
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = -20, df = 800, p-value <0.0000000000000002
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+ -Inf -5.4
+sample estimates:
+mean of the differences 
+                   -6.1 
+
+[1] "Scatter Plot"
+
+Call:
+lm(formula = Difference ~ InstructorsGrade)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-14.67  -7.01  -3.90   5.33  52.99 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)  
+(Intercept)      -16.4259     9.3426   -1.76    0.079 .
+InstructorsGrade   0.2344     0.0973    2.41    0.016 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 11 on 847 degrees of freedom
+Multiple R-squared:  0.0068,	Adjusted R-squared:  0.00563 
+F-statistic:  5.8 on 1 and 847 DF,  p-value: 0.0163
+
+null device 
+          1 
+[1] "filter the Grade A data"
+null device 
+          1 
+             StudentsGrade InstructorsGrade Difference
+nbr.val             537.00          537.000     537.00
+nbr.null              0.00            0.000      51.00
+nbr.na                0.00            0.000       0.00
+min                  39.00           80.000     -20.00
+max                 100.00           89.000      49.00
+range                61.00            9.000      69.00
+sum               44616.00        44877.500     261.50
+median               85.00           83.000       0.00
+mean                 83.08           83.571       0.49
+SE.mean               0.52            0.134       0.53
+CI.mean.0.95          1.02            0.264       1.03
+var                 145.25            9.664     148.62
+std.dev              12.05            3.109      12.19
+coef.var              0.15            0.037      25.03
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = -0.9, df = 500, p-value = 0.8
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -1.4  Inf
+sample estimates:
+mean of the differences 
+                  -0.49 
+
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = -0.9, df = 500, p-value = 0.2
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+ -Inf 0.38
+sample estimates:
+mean of the differences 
+                  -0.49 
+
+
+Call:
+lm(formula = Difference ~ InstructorsGrade)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-18.08  -7.80  -1.10   4.53  45.53 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       -55.861     13.968   -4.00 0.000072 ***
+InstructorsGrade    0.674      0.167    4.04 0.000062 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 12 on 535 degrees of freedom
+Multiple R-squared:  0.0296,	Adjusted R-squared:  0.0277 
+F-statistic: 16.3 on 1 and 535 DF,  p-value: 0.0000621
+
+RStudioGD 
+        2 
+             StudentsGrade InstructorsGrade Difference
+nbr.val            1386.00         1386.000    1386.00
+nbr.null              0.00            0.000     276.00
+nbr.na                0.00            0.000       0.00
+min                  39.00           80.000     -20.00
+max                 100.00          100.000      60.00
+range                61.00           20.000      80.00
+sum              120901.00       126299.000    5398.00
+median               90.00           91.000       0.00
+mean                 87.23           91.125       3.89
+SE.mean               0.33            0.188       0.32
+CI.mean.0.95          0.64            0.370       0.62
+var                 147.33           49.177     140.15
+std.dev              12.14            7.013      11.84
+coef.var              0.14            0.077       3.04
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = -10, df = 1000, p-value = 1
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -4.4  Inf
+sample estimates:
+mean of the differences 
+                   -3.9 
+
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = -10, df = 1000, p-value <0.0000000000000002
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+ -Inf -3.4
+sample estimates:
+mean of the differences 
+                   -3.9 
+
+
+Call:
+lm(formula = Difference ~ InstructorsGrade)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-19.14  -7.68  -2.68   6.59  52.32 
+
+Coefficients:
+                 Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)      -35.0167     4.0124   -8.73 <0.0000000000000002 ***
+InstructorsGrade   0.4270     0.0439    9.73 <0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 12 on 1384 degrees of freedom
+Multiple R-squared:  0.064,	Adjusted R-squared:  0.0633 
+F-statistic: 94.6 on 1 and 1384 DF,  p-value: <0.0000000000000002
+
+RStudioGD 
+        2 
+             StudentsGrade InstructorsGrade Difference
+nbr.val             407.00          407.000     407.00
+nbr.null              0.00            0.000      22.00
+nbr.na                0.00            0.000       0.00
+min                  40.00           70.000     -30.00
+max                 100.00           79.000      34.00
+range                60.00            9.000      64.00
+sum               31977.00        30090.000   -1887.00
+median               80.00           74.000      -5.00
+mean                 78.57           73.931      -4.64
+SE.mean               0.67            0.160       0.67
+CI.mean.0.95          1.31            0.315       1.32
+var                 181.51           10.468     183.49
+std.dev              13.47            3.235      13.55
+coef.var              0.17            0.044      -2.92
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 7, df = 400, p-value = 0.00000000001
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 3.5 Inf
+sample estimates:
+mean of the differences 
+                    4.6 
+
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 7, df = 400, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+ -Inf  5.7
+sample estimates:
+mean of the differences 
+                    4.6 
+
+
+Call:
+lm(formula = Difference ~ InstructorsGrade)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-23.03  -8.61  -0.81   6.89  38.60 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)   
+(Intercept)       -48.597     15.239   -3.19   0.0015 **
+InstructorsGrade    0.595      0.206    2.89   0.0041 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 13 on 405 degrees of freedom
+Multiple R-squared:  0.0202,	Adjusted R-squared:  0.0178 
+F-statistic: 8.34 on 1 and 405 DF,  p-value: 0.00409
+
+RStudioGD 
+        2 
+[1] "Grades B and C"
+[1] "filter the Grade B and C"
+[1] "Descriptive Statistics"
+             StudentsGrade InstructorsGrade Difference
+nbr.val             901.00          901.000     901.00
+nbr.null              0.00            0.000      72.00
+nbr.na                0.00            0.000       0.00
+min                  39.00           70.000     -30.00
+max                 100.00           88.000      49.00
+range                61.00           18.000      79.00
+sum               72831.00        71140.500   -1690.50
+median               81.00           80.000      -2.00
+mean                 80.83           78.957      -1.88
+SE.mean               0.43            0.182       0.44
+CI.mean.0.95          0.84            0.357       0.86
+var                 166.66           29.782     172.56
+std.dev              12.91            5.457      13.14
+coef.var              0.16            0.069      -7.00
+[1] "Hypothesis Testing: T test"
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 4, df = 900, p-value = 0.00001
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 1.2 Inf
+sample estimates:
+mean of the differences 
+                    1.9 
+
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 4, df = 900, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+ -Inf  2.6
+sample estimates:
+mean of the differences 
+                    1.9 
+
+[1] "Scatter Plot and Regression Line"
+[1] "Regression Analysis"
+
+Call:
+lm(formula = Difference ~ InstructorsGrade)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-22.76  -8.15  -0.75   6.04  45.46 
+
+Coefficients:
+                 Estimate Std. Error t value           Pr(>|t|)    
+(Intercept)      -49.1771     6.1539   -7.99 0.0000000000000041 ***
+InstructorsGrade   0.5991     0.0778    7.70 0.0000000000000346 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 13 on 899 degrees of freedom
+Multiple R-squared:  0.0619,	Adjusted R-squared:  0.0609 
+F-statistic: 59.4 on 1 and 899 DF,  p-value: 0.0000000000000346
+
+RStudioGD 
+        2 
+             StudentsGrade InstructorsGrade Difference
+nbr.val             568.00          568.000     568.00
+nbr.null              0.00            0.000      52.00
+nbr.na                0.00            0.000       0.00
+min                  40.00           75.000     -25.00
+max                 100.00           85.000      40.00
+range                60.00           10.000      65.00
+sum               46421.00        45560.000    -861.00
+median               82.00           80.000      -2.00
+mean                 81.73           80.211      -1.52
+SE.mean               0.51            0.122       0.51
+CI.mean.0.95          1.01            0.240       1.00
+var                 150.23            8.476     147.36
+std.dev              12.26            2.911      12.14
+coef.var              0.15            0.036      -8.01
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 3, df = 600, p-value = 0.002
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.68  Inf
+sample estimates:
+mean of the differences 
+                    1.5 
+
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 3, df = 600, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+ -Inf  2.4
+sample estimates:
+mean of the differences 
+                    1.5 
+
+
+Call:
+lm(formula = Difference ~ InstructorsGrade)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-21.76  -8.41  -0.07   5.25  41.59 
+
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)  
+(Intercept)       -28.017     14.023   -2.00    0.046 *
+InstructorsGrade    0.330      0.175    1.89    0.059 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 12 on 566 degrees of freedom
+Multiple R-squared:  0.00628,	Adjusted R-squared:  0.00452 
+F-statistic: 3.58 on 1 and 566 DF,  p-value: 0.0591
+
+RStudioGD 
+        2 
+[1] "Grades for Females"
+[1] "filter the Grade for Female"
+[1] "Descriptive Statistics"
+             StudentsGrade InstructorsGrade Difference
+nbr.val            1233.00          1233.00    1233.00
+nbr.null              0.00             0.00     152.00
+nbr.na                0.00             0.00       0.00
+min                  34.00            18.00     -80.00
+max                 100.00           100.00      50.00
+range                66.00            82.00     130.00
+sum               99876.00         96388.50   -3487.50
+median               81.00            80.00       0.00
+mean                 81.00            78.17      -2.83
+SE.mean               0.41             0.51       0.49
+CI.mean.0.95          0.81             1.00       0.96
+var                 209.04           318.99     297.68
+std.dev              14.46            17.86      17.25
+coef.var              0.18             0.23      -6.10
+[1] "Hypothesis Testing: T test"
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 6, df = 1000, p-value = 0.000000005
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+   2 Inf
+sample estimates:
+mean of the differences 
+                    2.8 
+
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 6, df = 1000, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+ -Inf  3.6
+sample estimates:
+mean of the differences 
+                    2.8 
+
+[1] "Scatter Plot and Regression Line"
+[1] "Regression Analysis"
+
+Call:
+lm(formula = Difference ~ InstructorsGrade)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-40.00  -9.01  -1.78   6.72  45.55 
+
+Coefficients:
+                 Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)      -52.7769     1.6559   -31.9 <0.0000000000000002 ***
+InstructorsGrade   0.6389     0.0207    30.9 <0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 13 on 1231 degrees of freedom
+Multiple R-squared:  0.437,	Adjusted R-squared:  0.437 
+F-statistic:  957 on 1 and 1231 DF,  p-value: <0.0000000000000002
+
+RStudioGD 
+        2 
+[1] "Grades for Males"
+[1] "filter the Grade for Male Students"
+[1] "Descriptive Statistics"
+             StudentsGrade InstructorsGrade Difference
+nbr.val            1334.00          1334.00    1334.00
+nbr.null              0.00             0.00     179.00
+nbr.na                0.00             0.00       0.00
+min                  33.00            18.00     -70.00
+max                 100.00           100.00      60.00
+range                67.00            82.00     130.00
+sum              109150.00        101100.50   -8049.50
+median               82.50            80.00      -4.00
+mean                 81.82            75.79      -6.03
+SE.mean               0.41             0.53       0.46
+CI.mean.0.95          0.80             1.04       0.91
+var                 223.81           376.98     285.04
+std.dev              14.96            19.42      16.88
+coef.var              0.18             0.26      -2.80
+[1] "Hypothesis Testing: T test"
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 10, df = 1000, p-value <0.0000000000000002
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 5.3 Inf
+sample estimates:
+mean of the differences 
+                      6 
+
+
+	Paired t-test
+
+data:  StudentsGrade and InstructorsGrade
+t = 10, df = 1000, p-value = 1
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+ -Inf  6.8
+sample estimates:
+mean of the differences 
+                      6 
+
+[1] "Scatter Plot and Regression Line"
+[1] "Regression Analysis"
+
+Call:
+lm(formula = Difference ~ InstructorsGrade)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-37.35  -8.04  -1.54   7.70  51.96 
+
+Coefficients:
+                 Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)      -50.0819     1.3864   -36.1 <0.0000000000000002 ***
+InstructorsGrade   0.5812     0.0177    32.8 <0.0000000000000002 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 13 on 1332 degrees of freedom
+Multiple R-squared:  0.447,	Adjusted R-squared:  0.446 
+F-statistic: 1.08e+03 on 1 and 1332 DF,  p-value: <0.0000000000000002
+
+RStudioGD 
+        2 
+[1] "ID"               "Year"             "Semester"         "course"          
+[5] "Gender"           "AS"               "StudentsGrade"    "InstructorsGrade"
+[1] 0.5
+
+	Pearson's product-moment correlation
+
+data:  x and y
+t = 30, df = 3000, p-value <0.0000000000000002
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.47 0.53
+sample estimates:
+cor 
+0.5 
+
